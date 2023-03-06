@@ -1,0 +1,108 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(209,192,220,1) 31%, rgba(178,149,196,1) 96%);
+	color: rgb(101,97,104);
+	font-family: 'Nova Flat';
+}
+
+#calcWrap {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgb(255,255,255);
+	height: 400px;
+	width: 300px;
+	border-radius: 20px;
+}
+
+#calcScreen {
+	height: 50px;
+	padding: 20px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}
+
+span {
+	float: right;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 40px;
+	color: rgb(96,42,128);
+}
+
+.buttonRow {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#buttons {
+	font-family: 'Nova Flat';
+	display: flex;
+ 	flex-direction: column;
+  	justify-content: space-between;
+	background-color: rgba(244,239,247);
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px;
+	height: 260px;
+	width: 220px;
+	border-radius: 20px;
+}
+
+.operations {
+	font-family: 'Nova Flat';
+	font-size: 15px;
+	background-color: rgb(222,207,231);
+	border-radius: 50%;
+	border: none;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	box-shadow: 3px 3px 8px rgb(204,182,218);
+}
+
+.operations:hover {
+	background-color: rgb(204,182,218);
+	box-shadow: 3px 3px 8px rgb(180,149,200);
+}
+
+.numbers {
+	font-family: 'Nova Flat';
+	font-size: 15px;
+	background-color: none;
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.numbers:hover {
+	background-color: rgb(234,225,240);
+}
+
+#equal {
+	font-family: 'Nova Flat';
+	width: 90px;
+	border-radius: 20px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	background-color: rgb(174,140,195);
+	box-shadow: 3px 3px 8px rgba(148,104,176,0.6);
+}
+
+#equal:hover {
+	background-color: rgba(148,104,176,0.6);
+}
+
+.delete {
+	font-size: 13px;
+}
