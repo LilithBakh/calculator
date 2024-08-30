@@ -29,10 +29,31 @@ body {
 
 span {
 	float: right;
-	padding-left: 15px;
-	padding-right: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
 	font-size: 40px;
 	color: rgb(96,42,128);
+	max-width: 250px;
+	overflow: auto;
+  	white-space: nowrap;
+}
+span::-webkit-scrollbar {
+  width: 230px;
+  height: 5px;
+}
+
+span::-webkit-scrollbar-track {
+  background: rgb(244,239,247); 
+  border-radius: 2px;
+}
+
+span::-webkit-scrollbar-thumb {
+  background: rgb(204 182 218);
+  border-radius: 2px; 
+}
+
+span::-webkit-scrollbar-thumb:hover {
+  background: rgb(174,140,195);
 }
 
 .buttonRow {
